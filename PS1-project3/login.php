@@ -49,16 +49,16 @@ session_start();
         <img src="logo.jpg" alt="YourStore.com" />
       </div>
     </nav>
-    <section id="login">
-      <h1 class="h-primary center">LOGIN</h1>
       <form action = "" method = "POST">
       <div class="loginpage">
+        <section id="login">
+      <h1 class="h-primary center">Log-in</h1>
         <div id="userid" class="input">
-          <label for="UserID">username </label>
+          <label for="UserID">Username : </label>
           <input type="text" id="UserID" placeholder="Enter Your UserID" name="username" value = "<?php echo $email; ?>"/>
         </div>
         <div id="password" class="input">
-          <label for="Password">Password: </label>
+          <label for="Password">Password : </label>
           <input
             type="password"
             id="Password"
@@ -77,7 +77,7 @@ session_start();
         <input type="submit" name = "submit" value = "login" class = "btn brand z-depth-0">
     </div>
         <div id="signup">
-          <p>Don't have an Account? <a href="signup.php">Sign up</a></p>
+          <p>Don't have an Account? <a href="signup.html">Sign up</a></p>
         </div>
       </div>
       </form>
