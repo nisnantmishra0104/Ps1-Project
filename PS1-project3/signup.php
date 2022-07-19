@@ -75,9 +75,9 @@ session_start();
         <li class="item"><a href="tapes.html">TAPES AND GUMS</a></li>
       </ul>
     </nav>
-    <section id="login">
-      <h1 class="h-primary center">SIGNUP</h1>
       <div class="loginpage">
+        <section id="login">
+      <h1 class="h-primary center">SIGNUP</h1>
       <form action="" method="POST">
       <div id="email" class="input">
           <label for="email">Email</label>
@@ -122,7 +122,7 @@ session_start();
         <input type="submit" name = "submit" value = "Signup" class = "btn brand z-depth-0">
     </div>
         <div id="signup">
-          <p>Already have an Account? <a href="login.php">login</a></p>
+          <p>Already have an Account? <a href="login.html">login</a></p>
         </div>
         </form>
       </div>
